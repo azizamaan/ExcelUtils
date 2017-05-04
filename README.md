@@ -24,4 +24,4 @@ Header names should match with attributes of class.
 
 
 ### Example
-Please refer following plunkr.
+will be added soon.
