@@ -18,7 +18,7 @@ private String firstName;
 ### For writing to excel files
 Simply provide Map of sheetname and List of your class instance objects, Map of sheetname and List of header name keys and Map of header name keys and corresponding local labels.
 ```
- = ExcelUtils.generateExcel(yourMapOfSheetNameAndListOfClassInstanceObjects, yourMapOfSheetNameAndListOfHeaderNames, yourMapOfHeaderKeysAndActualHeaderNames);
+File  = ExcelUtils.generateExcel(yourMapOfSheetNameAndListOfClassInstanceObjects, yourMapOfSheetNameAndListOfHeaderNames, yourMapOfHeaderKeysAndActualHeaderNames);
 ```
 Header names should match with attributes of class.
 
